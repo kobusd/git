@@ -1,2 +1,19 @@
 #git commands
-git clone https://some_url
+#clone repository (creates new folder)
+git clone https://<server>
+
+#return status of git
+git status -s
+
+#Stage all changes in <directory> for the next commit.
+git add *
+
+#commit the changes
+git commit -m "Commit message"
+
+#push changes to the remote repository
+git push origin master
+
+#push without being cloned 
+git remote add origin https://<server>
+
